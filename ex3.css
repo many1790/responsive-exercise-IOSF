@@ -12,6 +12,9 @@ body{
     background-color: whitesmoke;
 }
 #main{
+    width: 80%;
+    height:auto;
+    padding: 20px 0 20px 0 ;
     box-shadow: 0 0 40px #000;
     border-radius: 10px;
     border: 2px solid #000;
@@ -20,18 +23,21 @@ body{
     grid-template-rows: auto;
     place-items: center;
     gap: 15px;
-    width: 80%;
-    height:auto;
     background-color:rgb(252, 243, 233);
+        /*--------------------------*/
         .divImg{
-            box-shadow: 0 0 20px #000;
+            width: 90%;
+            padding-top: 15px;
+            display: flex;
+            flex-direction: column;
+            place-items: center;
+            box-shadow: 0 0 10px #000;
             border-radius: 10px;
+        /*-----------------------*/
             .imgItem{
-                width: 90%;
+                width: 95%;
                 height: auto;
                 border-radius: 10px;
             }
         }
-
-
-}
+    }
