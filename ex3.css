@@ -11,14 +11,27 @@ body{
     height: 1200px;
     background-color: whitesmoke;
 }
-.main{
+#main{
     box-shadow: 0 0 40px #000;
     border-radius: 10px;
     border: 2px solid #000;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
+    place-items: center;
+    gap: 15px;
     width: 80%;
-    height: 80vh;
+    height:auto;
     background-color:rgb(252, 243, 233);
+        .divImg{
+            box-shadow: 0 0 20px #000;
+            border-radius: 10px;
+            .imgItem{
+                width: 90%;
+                height: auto;
+                border-radius: 10px;
+            }
+        }
+
+
 }
